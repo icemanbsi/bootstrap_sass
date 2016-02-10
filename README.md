@@ -5,8 +5,9 @@ This project contains all the bootstrap sass source files. This project will be 
 `bootstrap_sass` is a Sass-powered version of [Bootstrap](https://github.com/twbs/bootstrap) 3, ready to drop right into your Sass powered applications.
 
 # Usage
+1\. [Install sass](http://sass-lang.com/install). If you already installed skip to step number 2\.
 
-Create a new project with next structure:
+2\. Create a new project with next structure:
 
 ```
 [project_root]
@@ -20,7 +21,7 @@ Create a new project with next structure:
      └─ ... lib files and folders ...
 ```
 
-In the `pubspect.yaml` file add the `bootstrap_sass` dependency and `sass` dependency, then you will need to add `sass` transformer (this is in charge of converting sass files into css).
+3\. In the `pubspect.yaml` file add the `bootstrap_sass` dependency and `sass` dependency, then you will need to add `sass` transformer (this is in charge of converting sass files into css).
 
 ```yaml
 ...
@@ -35,7 +36,7 @@ transformers:
   ...
 ```
 
-Then in `variables.scss` add the variables you want to modify
+4\. Then in `variables.scss` add the variables you want to modify
 
 ```scss
 //== Colors
@@ -57,7 +58,7 @@ $brand-danger:           #22afc7;
 ...
 ```
 
-Then in the `theme.scss` add the styles you need to change.
+5\. In the `theme.scss` add the styles you need to change.
 
 ```scss
 @import 'variables' // variables should be before bootstrap to override variable values
@@ -107,7 +108,7 @@ Then in the `theme.scss` add the styles you need to change.
 ...
 ```
 
-Finally in the `index.html` you will add the link to `theme.css` as it follows:
+6\. Finally in the `index.html` you will add the link to `theme.css` as it follows:
 
 ```html
 <!DOCTYPE html>
@@ -139,9 +140,13 @@ bootstrap-sass has a number of major contributors:
 
 and a [significant number of other contributors][contrib].
 
+The dart port is made by: [Luis Vargas](https://github.com/luisvt)
+
 ## Bugs and feature requests
 
-Have a bug or a feature request? [Please open a new issue](https://github.com/twbs/bootstrap/issues/new).
+Have a bug or a feature request to bootstrap core?  Please open a new issue at https://github.com/twbs/bootstrap/issues/new.
+
+Have a bug or a feature request to bootstrap_sass dart port? Please open a new issue at https://github.com/luisvt/bootstrap_sass/issues/new.
 
 ## Copyright and license
 
