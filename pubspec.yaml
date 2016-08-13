@@ -1,5 +1,5 @@
 name: bootstrap_sass
-version: 4.0.0-alpha.3
+version: 4.0.0-alpha.3+1
 description: Sass source files to create bootstrap themes
 author: Luis Vargas <luisvargastijerino@gmail.com>
 homepage: https://github.com/luisvt/bootstrap_sass
