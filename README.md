@@ -2,7 +2,7 @@
 
 This project contains all the bootstrap sass source files. This project will be useful to create new themes using sass.
 
-`bootstrap_sass` is a Sass-powered version of [Bootstrap](https://github.com/twbs/bootstrap) 3, ready to drop right into your Sass powered applications.
+`bootstrap_sass` is a Sass-powered version of [Bootstrap](https://github.com/twbs/bootstrap), ready to drop right into your Sass powered applications.
 
 # Usage
 1\. [Install sass](http://sass-lang.com/install). If you already installed skip to step number 2\.
@@ -146,7 +146,7 @@ The dart port is made by: [Luis Vargas](https://github.com/luisvt)
 
 Have a bug or a feature request to bootstrap core?  Please open a new issue at https://github.com/twbs/bootstrap/issues/new.
 
-Have a bug or a feature request to bootstrap_sass dart port? Please open a new issue at https://github.com/luisvt/bootstrap_sass/issues/new.
+Have a bug or a feature request to bootstrap_sass dart port? Please open a new issue at https://github.com/dart-league/bootstrap_sass/issues/new.
 
 ## Copyright and license
 

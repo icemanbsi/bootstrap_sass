@@ -1,14 +1,19 @@
-/**
- * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
+/*!
+ * Bootstrap v4.0.0-alpha.3 (http://getbootstrap.com)
+ * Copyright 2011-2016 The Bootstrap Authors
+ * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 // Core variables and mixins
+@import "packages/bootstrap_sass/scss/custom";
 @import "packages/bootstrap_sass/scss/variables";
 @import "packages/bootstrap_sass/scss/mixins";
+
 // Reset and dependencies
 @import "packages/bootstrap_sass/scss/normalize";
 @import "packages/bootstrap_sass/scss/print";
+
 // Core CSS
 @import "packages/bootstrap_sass/scss/reboot";
 @import "packages/bootstrap_sass/scss/type";
@@ -18,6 +23,7 @@
 @import "packages/bootstrap_sass/scss/tables";
 @import "packages/bootstrap_sass/scss/forms";
 @import "packages/bootstrap_sass/scss/buttons";
+
 // Components
 @import "packages/bootstrap_sass/scss/animation";
 @import "packages/bootstrap_sass/scss/dropdown";
@@ -29,8 +35,7 @@
 @import "packages/bootstrap_sass/scss/card";
 @import "packages/bootstrap_sass/scss/breadcrumb";
 @import "packages/bootstrap_sass/scss/pagination";
-@import "packages/bootstrap_sass/scss/pager";
-@import "packages/bootstrap_sass/scss/labels";
+@import "packages/bootstrap_sass/scss/tags";
 @import "packages/bootstrap_sass/scss/jumbotron";
 @import "packages/bootstrap_sass/scss/alert";
 @import "packages/bootstrap_sass/scss/progress";
@@ -38,13 +43,12 @@
 @import "packages/bootstrap_sass/scss/list-group";
 @import "packages/bootstrap_sass/scss/responsive-embed";
 @import "packages/bootstrap_sass/scss/close";
+
 // Components w/ JavaScript
 @import "packages/bootstrap_sass/scss/modal";
 @import "packages/bootstrap_sass/scss/tooltip";
 @import "packages/bootstrap_sass/scss/popover";
 @import "packages/bootstrap_sass/scss/carousel";
+
 // Utility classes
 @import "packages/bootstrap_sass/scss/utilities";
-@import "packages/bootstrap_sass/scss/utilities-background";
-@import "packages/bootstrap_sass/scss/utilities-spacing";
-@import "packages/bootstrap_sass/scss/utilities-responsive";
