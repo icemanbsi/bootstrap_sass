@@ -8,16 +8,16 @@
 // Variables
 //
 
-@import "packages/bootstrap_sass/scss/custom";
-@import "packages/bootstrap_sass/scss/variables";
+@import "custom";
+@import "variables";
 
 //
 // Grid mixins
 //
 
-@import "packages/bootstrap_sass/scss/mixins/clearfix";
-@import "packages/bootstrap_sass/scss/mixins/breakpoints";
-@import "packages/bootstrap_sass/scss/mixins/grid-framework";
-@import "packages/bootstrap_sass/scss/mixins/grid";
+@import "mixins/clearfix";
+@import "mixins/breakpoints";
+@import "mixins/grid-framework";
+@import "mixins/grid";
 
-@import "packages/bootstrap_sass/scss/grid";
+@import "grid";

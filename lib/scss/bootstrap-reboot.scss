@@ -2,10 +2,10 @@
 //
 // Includes only Normalize and our custom Reboot reset.
 
-@import "packages/bootstrap_sass/scss/custom";
-@import "packages/bootstrap_sass/scss/variables";
-@import "packages/bootstrap_sass/scss/mixins/hover";
-@import "packages/bootstrap_sass/scss/mixins/tab-focus";
+@import "custom";
+@import "variables";
+@import "mixins/hover";
+@import "mixins/tab-focus";
 
-@import "packages/bootstrap_sass/scss/normalize";
-@import "packages/bootstrap_sass/scss/reboot";
+@import "normalize";
+@import "reboot";
