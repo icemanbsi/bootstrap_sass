@@ -28,11 +28,11 @@ This project contains all the bootstrap sass source files. This project will be 
 depencencies:
   ...
   bootstrap_sass: any
-  sass: any
+  sass_transformer: any
   ...
 transformers:
   ...
-  - sass
+  - sass_transformer
   ...
 ```
 
