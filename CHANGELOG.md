@@ -1,4 +1,6 @@
-# Changelog
+## 4.0.0-alpha.3+3
+
+* upgrade to `sass_transformer 0.1.1`
 
 ## 4.0.0-alpha.3+2
 
