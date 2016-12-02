@@ -1,11 +1,15 @@
 name: bootstrap_sass
-version: 4.0.0-alpha.3+4
+version: 4.0.0-alpha.3+5
 description: Sass source files to create bootstrap themes
 author: Luis Vargas <luisvargastijerino@gmail.com>
 homepage: https://github.com/luisvt/bootstrap_sass
 environment:
   sdk: '>=1.8.0 <2.0.0'
 dependencies:
-  sass_transformer: ^0.1.1
-transformers:
-- sass_transformer
+#  sass: ^1.0.0-alpha.5
+  sass:
+    git:
+      url: https://github.com/luisvt/dart-sass
+      ref: support-package-url
+dev_dependencies:
+  grinder: ^0.8.0+3
