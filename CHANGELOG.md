@@ -1,3 +1,7 @@
+## 4.0.0-alpha.5
+
+* upgrade to v4.0.0-alpha.5
+
 ## 4.0.0-alpha.3+5
 
 * remove `sass_transformer` and add `dart-sass` and `grinder`
