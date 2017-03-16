@@ -1,3 +1,7 @@
+## 4.0.0-alpha.6
+
+* upgrade to v4.0.0-alpha.6
+
 ## 4.0.0-alpha.5
 
 * upgrade to v4.0.0-alpha.5

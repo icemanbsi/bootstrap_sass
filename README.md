@@ -5,13 +5,14 @@ This project contains all the bootstrap sass source files. This project will be 
 `bootstrap_sass` is a Sass-powered version of [Bootstrap](https://github.com/twbs/bootstrap), ready to drop right into your Sass powered applications.
 
 # Usage
-1\. [Install sass](http://sass-lang.com/install). If you already installed skip to step number 2\.
 
-2\. Create a new project with next structure:
+1\. Create a new project with next structure:
 
 ```
 [project_root]
   ├─ pubspec.yaml
+  ├─ tool
+  │  └─ build.dart
   ├─ web
   │  ├─ index.html
   │  ├─ variables.scss
@@ -21,19 +22,31 @@ This project contains all the bootstrap sass source files. This project will be 
      └─ ... lib files and folders ...
 ```
 
-3\. In the `pubspect.yaml` file add the `bootstrap_sass` dependency and `sass` dependency, then you will need to add `sass` transformer (this is in charge of converting sass files into css).
+2\. In the `pubspect.yaml` file add the `bootstrap_sass` and `sass_builder` dependencies.
 
 ```yaml
 ...
 depencencies:
   ...
-  bootstrap_sass: any
-  sass_transformer: any
+  bootstrap_sass: ^4.0.0-alpha.6 # change for the latest version
   ...
-transformers:
+dev_dependencies:
   ...
-  - sass_transformer
+  sass_builder: ^0.0.2 # change for the latest version
   ...
+```
+
+3\. Then in `tool/build.dart` or `tool/watch.dart` file add next code to convert sass files into css.
+
+```dart
+import 'dart:async';
+
+import 'package:build_runner/build_runner.dart';
+import 'package:sass_builder/phase.dart';
+
+Future main() async {
+  await build(new PhaseGroup()..addPhase(sassPhase), deleteFilesByDefault: true);
+}
 ```
 
 4\. Then in `variables.scss` add the variables you want to modify
@@ -107,8 +120,9 @@ $brand-danger:           #22afc7;
 }
 ...
 ```
+6\. Run `tool/build.dart` and generate the required css.
 
-6\. Finally in the `index.html` you will add the link to `theme.css` as it follows:
+7\. Finally in the `index.html` you will add the link to `theme.css` as bellow:
 
 ```html
 <!DOCTYPE html>
