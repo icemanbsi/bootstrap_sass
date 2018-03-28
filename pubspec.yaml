@@ -1,10 +1,10 @@
 name: bootstrap_sass
-version: 4.0.0-beta.2
+version: 4.0.0
 description: Sass source files to create bootstrap themes
 author: Luis Vargas <luisvargastijerino@gmail.com>
 homepage: https://github.com/luisvt/bootstrap_sass
 environment:
   sdk: '>=1.8.0 <2.0.0'
 dev_dependencies:
-  sass: ^1.0.0-alpha.9
-  grinder: ^0.8.0+3
+  sass: ^1.0.0
+  grinder: ^0.8.1

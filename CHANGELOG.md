@@ -1,3 +1,7 @@
+## 4.0.0
+
+* upgrade to v4.0.0
+
 ## 4.0.0-beta.2
 
 * upgrade to v4.0.0-beta.2
