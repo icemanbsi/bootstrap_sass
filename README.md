@@ -22,13 +22,13 @@ This project contains all the bootstrap sass source files. This project will be 
      └─ ... lib files and folders ...
 ```
 
-2\. In the `pubspect.yaml` file add the `bootstrap_sass` and `sass_builder` dependencies.
+2\. In the `pubspec.yaml` file add the `bootstrap_sass` and `sass_builder` dependencies.
 
 ```yaml
 ...
 depencencies:
   ...
-  bootstrap_sass: ^4.0.0-beta # change for the latest version
+  bootstrap_sass: ^4.0.0 # change for the latest version
   ...
 dev_dependencies:
   ...
@@ -164,4 +164,4 @@ Have a bug or a feature request to bootstrap_sass dart port? Please open a new i
 
 ## Copyright and license
 
-Code and documentation copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
+Code and documentation copyright 2011-2018 the [Bootstrap Authors](https://github.com/twbs/bootstrap/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).

@@ -5,7 +5,7 @@ import 'package:sass/sass.dart';
 main(args) => grind(args);
 
 @DefaultTask('Build Scss Files')
-sass() async {
-  var css = await render('lib/scss/bootstrap.scss');
+sass() {
+  var css = compile('lib/scss/bootstrap.scss');
   new File('lib/scss/bootstrap.css').writeAsStringSync(css);
 }
