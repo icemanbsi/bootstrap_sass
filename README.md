@@ -11,8 +11,6 @@ This project contains all the bootstrap sass source files. This project will be 
 ```
 [project_root]
   ├─ pubspec.yaml
-  ├─ tool
-  │  └─ build.dart
   ├─ web
   │  ├─ index.html
   │  ├─ variables.scss
