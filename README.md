@@ -28,28 +28,15 @@ This project contains all the bootstrap sass source files. This project will be 
 ...
 depencencies:
   ...
-  bootstrap_sass: ^4.0.0 # change for the latest version
+  bootstrap_sass: ^4.1.2 # change for the latest version
   ...
 dev_dependencies:
   ...
-  sass_builder: ^1.0.0 # change for the latest version
+  sass_builder: ^2.0.0 # change for the latest version
   ...
 ```
 
-3\. Then in `tool/build.dart` or `tool/watch.dart` file add next code to convert sass files into css.
-
-```dart
-import 'dart:async';
-
-import 'package:build_runner/build_runner.dart';
-import 'package:sass_builder/phase.dart';
-
-Future main() async {
-  await build(new PhaseGroup()..addPhase(sassPhase), deleteFilesByDefault: true);
-}
-```
-
-4\. Then in `variables.scss` add the variables you want to modify
+3\. Then in `variables.scss` add the variables you want to modify
 
 ```scss
 //== Colors
@@ -71,7 +58,7 @@ $brand-danger:           #22afc7;
 ...
 ```
 
-5\. In the `theme.scss` add the styles you need to change.
+4\. In the `theme.scss` add the styles you need to change.
 
 ```scss
 @import 'variables' // variables should be before bootstrap to override variable values
@@ -120,9 +107,9 @@ $brand-danger:           #22afc7;
 }
 ...
 ```
-6\. Run `tool/build.dart` and generate the required css.
+5\. Run `tool/build.dart` and generate the required css.
 
-7\. Finally in the `index.html` you will add the link to `theme.css` as bellow:
+6\. Finally in the `index.html` you will add the link to `theme.css` as bellow:
 
 ```html
 <!DOCTYPE html>
@@ -131,8 +118,8 @@ $brand-danger:           #22afc7;
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- you could add bootstrap.css file -->
-  <link rel="stylesheet" href="packages/bootstrap_sass/sass/bootstrap.css">
+  <!-- you could add bootstrap.css file if you don't create your own theme -->
+  <!--<link rel="stylesheet" href="packages/bootstrap_sass/sass/bootstrap.css">-->
   <!-- you can also add theme.css -->
   <link rel="stylesheet" href="theme.css">
 </head>
