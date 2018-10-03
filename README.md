@@ -13,7 +13,7 @@ This project contains all the bootstrap sass source files. This project will be 
   ├─ pubspec.yaml
   ├─ web
   │  ├─ index.html
-  │  ├─ variables.scss
+  │  ├─ _variables.scss
   │  ├─ theme.scss
   │  └─ ... other files and folders ...
   └─ lib
@@ -34,7 +34,7 @@ dev_dependencies:
   ...
 ```
 
-3\. Then in `variables.scss` add the variables you want to modify
+3\. Then in `_variables.scss` add the variables you want to modify
 
 ```scss
 //== Colors
@@ -105,7 +105,17 @@ $brand-danger:           #22afc7;
 }
 ...
 ```
-5\. Run `tool/build.dart` and generate the required css.
+5\. Generate the required css by running:
+
+```
+build_runner build
+```
+
+or if you prefer you could watch for changes and run:
+
+```
+build_runner watch
+```
 
 6\. Finally in the `index.html` you will add the link to `theme.css` as bellow:
 
