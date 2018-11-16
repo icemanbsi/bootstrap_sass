@@ -60,7 +60,7 @@ $brand-danger:           #22afc7;
 
 ```scss
 @import 'variables' // variables should be before bootstrap to override variable values
-@import 'packages/bootstrap_sass/stylesheets/bootstrap';
+@import 'package:bootstrap_sass/sass/bootstrap';
 
 // Cerulean 3.3.5
 // Bootswatch
