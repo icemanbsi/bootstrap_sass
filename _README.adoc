@@ -1,0 +1,80 @@
+= bootstrap_sass
+
+This project contains all the bootstrap sass source files. This project will be useful to create new themes using sass.
+
+`bootstrap_sass` is a Sass-powered version of [Bootstrap](https://github.com/twbs/bootstrap), ready to drop right into your Sass powered applications.
+
+== Usage
+
+1 - Create a new project with next structure:
+
+```
+[project_root]
+  ├─ pubspec.yaml
+  ├─ web
+  │  ├─ index.html
+  │  ├─ _variables.scss
+  │  ├─ theme.scss
+  │  └─ ... other files and folders ...
+  └─ lib
+     └─ ... lib files and folders ...
+```
+
+2 - In the `pubspec.yaml` file add the `bootstrap_sass` and `sass_builder` dependencies as bellow:
+
+```yaml
+include::example/pubspec.yaml[]
+```
+
+3 - Then in `_variables.scss` add the variables you want to modify
+
+```scss
+include::example/web/_variables.scss[]
+```
+
+4- In the `theme.scss` add next code:
+
+```scss
+include::example/web/theme.scss
+```
+
+5 - Then in the `index.html` you will add the link to `theme.css` as bellow:
+
+```html
+include::example/web/index.html[tag=theme]
+```
+
+so you will end up with an `index.html` file like next one:
+
+```
+include::example/web/index.html[tag=**]
+```
+
+6 - Finally to run this project you will need to use next command:
+
+```
+webdev serve
+```
+
+== Credits
+
+bootstrap-sass has a number of major contributors:
+
+* https://twitter.com/thomasmcdonald_[Thomas McDonald]
+* http://www.trisweb.com[Tristan Harward]
+* Peter Gumeson
+* https://github.com/glebm[Gleb Mazovetskiy]
+
+and a [significant number of other contributors].
+
+The dart port is made by: https://github.com/luisvt[Luis Vargas]
+
+== Bugs and feature requests
+
+Have a bug or a feature request to bootstrap core?  Please open a new issue at https://github.com/twbs/bootstrap/issues/new.
+
+Have a bug or a feature request to bootstrap_sass dart port? Please open a new issue at https://github.com/dart-league/bootstrap_sass/issues/new.
+
+== Copyright and license
+
+Code and documentation copyright 2011-2018 the https://github.com/twbs/bootstrap/graphs/contributors[Bootstrap Authors] and https://twitter.com[Twitter, Inc.] Code released under the https://github.com/twbs/bootstrap/blob/master/LICENSE[MIT License]. Docs released under https://github.com/twbs/bootstrap/blob/master/docs/LICENSE[Creative Commons].
