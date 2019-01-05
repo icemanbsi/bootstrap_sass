@@ -2,7 +2,7 @@ This project contains all the Bootstrap Sass source files. This project
 will be useful to create new themes using Sass.
 
 `bootstrap_sass` is a Sass-powered version of
-[Bootstrap](<https://github.com/twbs/bootstrap>), ready to drop right
+[Bootstrap](https://github.com/twbs/bootstrap), ready to drop right
 into your Sass powered applications.
 
 # Usage
