@@ -54,7 +54,8 @@ $danger:           #22afc7;
 4- In the `theme.scss` add next code:
 
 ``` scss
-include::example/web/theme.scss
+@import "variables";
+@import "package:bootstrap_sass/scss/bootstrap";
 ```
 
 5 - Then in the `index.html` you will add the link to `theme.css` as
