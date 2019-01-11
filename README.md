@@ -1,8 +1,8 @@
-This project contains all the bootstrap sass source files. This project
-will be useful to create new themes using sass.
+This project contains all the Bootstrap Sass source files. This project
+will be useful to create new themes using Sass.
 
 `bootstrap_sass` is a Sass-powered version of
-\[Bootstrap\](<https://github.com/twbs/bootstrap>), ready to drop right
+[Bootstrap](https://github.com/twbs/bootstrap), ready to drop right
 into your Sass powered applications.
 
 # Usage
@@ -31,11 +31,11 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
 
 dependencies:
-  bootstrap_sass: ^4.1.3
+  bootstrap_sass: ^4.2.1
 
 dev_dependencies:
-  build_runner: ^0.10.0
-  build_web_compilers: ^0.4.0
+  build_runner: ^1.0.0
+  build_web_compilers: ^1.0.0
   sass_builder: ^2.0.0
 ```
 
@@ -54,7 +54,8 @@ $danger:           #22afc7;
 4- In the `theme.scss` add next code:
 
 ``` scss
-include::example/web/theme.scss
+@import "variables";
+@import "package:bootstrap_sass/scss/bootstrap";
 ```
 
 5 - Then in the `index.html` you will add the link to `theme.css` as
@@ -98,7 +99,7 @@ so you will end up with an `index.html` file like next one:
 
 # Credits
 
-bootstrap-sass has a number of major contributors:
+`bootstrap_sass` has a number of major contributors:
 
   - [Thomas McDonald](https://twitter.com/thomasmcdonald_)
 
@@ -108,22 +109,22 @@ bootstrap-sass has a number of major contributors:
 
   - [Gleb Mazovetskiy](https://github.com/glebm)
 
-and a \[significant number of other contributors\].
+and a [significant number of other contributors](https://github.com/dart-league/bootstrap_sass/graphs/contributors).
 
-The dart port is made by: [Luis Vargas](https://github.com/luisvt)
+The Dart port is made by: [Luis Vargas](https://github.com/luisvt)
 
 # Bugs and feature requests
 
 Have a bug or a feature request to bootstrap core? Please open a new
 issue at <https://github.com/twbs/bootstrap/issues/new>.
 
-Have a bug or a feature request to bootstrap\_sass dart port? Please
+Have a bug or a feature request to `bootstrap_sass` Dart port? Please
 open a new issue at
 <https://github.com/dart-league/bootstrap_sass/issues/new>.
 
 # Copyright and license
 
-Code and documentation copyright 2011-2018 the [Bootstrap
+Code and documentation copyright 2011-2019 the [Bootstrap
 Authors](https://github.com/twbs/bootstrap/graphs/contributors) and
 [Twitter, Inc.](https://twitter.com) Code released under the [MIT
 License](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs
