@@ -46,7 +46,7 @@ include::example/web/index.html[tag=theme]
 
 so you will end up with an `index.html` file like next one:
 
-```
+```html
 include::example/web/index.html[tag=**]
 ```
 
