@@ -31,11 +31,10 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
 
 dependencies:
-  bootstrap_sass: ^4.2.1
-
+  bootstrap_sass: ^4.5.0
 dev_dependencies:
   build_runner: ^1.0.0
-  build_web_compilers: ^1.0.0
+  build_web_compilers: ^2.0.0
   sass_builder: ^2.0.0
 ```
 
@@ -118,11 +117,11 @@ The Dart port is made by: [Luis Vargas](https://github.com/luisvt)
 
 # Bugs and feature requests
 
-Have a bug or a feature request to bootstrap core? Please open a new
-issue at <https://github.com/twbs/bootstrap/issues/new>.
+Have a bug or feature request to bootstrap core? Please open a new issue
+at <https://github.com/twbs/bootstrap/issues/new>.
 
-Have a bug or a feature request to `bootstrap_sass` Dart port? Please
-open a new issue at
+Have a bug or feature request to `bootstrap_sass` Dart port? Please open
+a new issue at
 <https://github.com/dart-league/bootstrap_sass/issues/new>.
 
 # Copyright and license

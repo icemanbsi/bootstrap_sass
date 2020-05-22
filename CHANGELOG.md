@@ -1,3 +1,7 @@
+## 4.5.0
+
+- upgrade to v4.5.0
+
 ## 4.3.1
 
 - upgrade to v4.3.1

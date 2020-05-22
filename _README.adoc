@@ -71,9 +71,9 @@ The Dart port is made by: https://github.com/luisvt[Luis Vargas]
 
 == Bugs and feature requests
 
-Have a bug or a feature request to bootstrap core?  Please open a new issue at https://github.com/twbs/bootstrap/issues/new.
+Have a bug or feature request to bootstrap core?  Please open a new issue at https://github.com/twbs/bootstrap/issues/new.
 
-Have a bug or a feature request to `bootstrap_sass` Dart port? Please open a new issue at https://github.com/dart-league/bootstrap_sass/issues/new.
+Have a bug or feature request to `bootstrap_sass` Dart port? Please open a new issue at https://github.com/dart-league/bootstrap_sass/issues/new.
 
 == Copyright and license
 
