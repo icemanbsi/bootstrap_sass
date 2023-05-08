@@ -1,3 +1,12 @@
+## 4.6.0
+
+- Upgrade SDK to support null safety and Dart 3.
+  - sdk: '>=2.18.0 <3.0.0'
+  - The version has been upgraded to `4.6.0` due the SDK constraint upgrade. 
+- Added GitHUB action (Dart CI) with basic checks.
+- sass_builder: ^2.2.1
+- lints: ^2.0.1
+
 ## 4.5.0
 
 - upgrade to v4.5.0
